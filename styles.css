@@ -1,9 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: sans-serif;
+-serif;
 }
 
 body {
@@ -37,7 +32,12 @@ label {
 }
 
 ul {
-  list-style: none;
+  list-style: none;* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans
   margin: 1rem 0;
   padding: 0;
 }
@@ -46,4 +46,7 @@ li {
   margin: 1rem 0;
   padding: 1rem;
   border: 1px solid #ccc;
+  &.done{
+    text-decoration: line-through;
+  }
 }
